@@ -5,12 +5,24 @@ Welcome to the official repository for HACNet V2, an advanced deep learning arch
 
 The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
 
-# If you find it useful, please cite our paper: 
-HACNet V2: Rethinking the full-resolution architecture for pixel-level crack detection,
-Expert Systems with Applications,2025,128144, https://doi.org/10.1016/j.eswa.2025.128144.
-
 # The Datasets: 
 ## BCL dataset:
 Harvard dataverse and can bevisited through the following link: https://doi.org/10.7910/DVN/RURXSH
 ## CHCrack5K dataset:
 Github: https://github.com/hanshenChen/CHCrack5K
+
+If you find this repository useful, please consider giving a star ⭐ and citation 🦖:
+# Citation
+```bibtex
+@article{CHEN2025128144,
+title = {HACNet V2: Rethinking the full-resolution architecture for pixel-level crack detection},
+journal = {Expert Systems with Applications},
+pages = {128144},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.128144},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425017646},
+author = {Hanshen Chen and Hao Chen}
+}
+
+
