@@ -1,5 +1,6 @@
 # HACNetV2
 HACNet V2: Rethinking the Full-Resolution  Network for Pixel-level Crack Detection
+[paper](https://doi.org/10.1016/j.eswa.2025.128144)
 
 Welcome to the official repository for HACNet V2, an advanced deep learning architecture designed for precise pixel-level crack detection. 
 
