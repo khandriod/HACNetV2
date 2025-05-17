@@ -8,13 +8,13 @@ HACNetV2 is an enhanced full-resolution architecture that builds upon our previo
 ## 🔍 What distinguishes HACNetv2 from existing crack detection models?
 
 ### 🚀 Simplicity
-HACNetv2 employs a straightforward architecture composed of six identical HybridASPA blocks, each maintaining consistent structure, parameters, input/output channel dimensions, and resolution. 
+A straightforward architecture composed of six identical HybridASPA blocks, each maintaining consistent structure, parameters, input/output channel dimensions, and resolution. 
 
 ### 🎯 Effectiveness
-HACNetv2 demonstrates superior detection accuracy, particularly in identifying tiny and fine-grained cracks, outperforming existing state-of-the-art models.
+Superior detection accuracy, particularly in identifying tiny and fine-grained cracks.
 
 ### ⚡ Efficiency
-With only **1.17M parameters**, HACNetv2 achieves real-time inference performance, making it highly suitable for deployment on resource-constrained devices such as the **Jetson Orin AGX**.
+With only **1.17M parameters**, achieves real-time inference performance in **Jetson Orin AGX**.
 
 The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
 
