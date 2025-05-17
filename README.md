@@ -16,6 +16,8 @@ Superior detection accuracy, particularly in identifying tiny and fine-grained c
 ### ⚡ Efficiency
 With only **1.17M parameters**, achieves real-time inference performance in **Jetson Orin AGX**.
 
+
+
 The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
 
 # The Datasets: 
