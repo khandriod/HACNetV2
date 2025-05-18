@@ -18,8 +18,7 @@ Superior detection accuracy, particularly in identifying tiny and fine-grained c
 With only **1.17M parameters**, achieves real-time inference performance in **Jetson Orin AGX**.
 
 
-
-# The Datasets: 
+# The pixel-level Crack Datasets: 
 ## BCL dataset:
 Harvard dataverse and can bevisited through the following link: https://doi.org/10.7910/DVN/RURXSH
 ## CHCrack5K dataset:
@@ -28,8 +27,8 @@ Github: https://github.com/hanshenChen/CHCrack5K
 
 If you find this repository useful, please consider giving a star ⭐ and citation 🦖:
 # Citation
+#### HACNetV2 Reference:
 ```bibtex
-HACNetV2:
 @article{CHEN2025128144,
 title = {HACNet V2: Rethinking the full-resolution architecture for pixel-level crack detection},
 journal = {Expert Systems with Applications},
@@ -40,9 +39,12 @@ doi = {https://doi.org/10.1016/j.eswa.2025.128144},
 url = {https://www.sciencedirect.com/science/article/pii/S0957417425017646},
 author = {Hanshen Chen and Hao Chen}
 }
+```
 
+#### HACNet Reference:
 The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
 HACNet;
+```bibtex
 @ARTICLE{9410578,
   author={Chen, Hanshen and Lin, Huiping},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
@@ -53,4 +55,5 @@ HACNet;
   pages={1-12},
   keywords={Feature extraction;Task analysis;Image segmentation;Spatial resolution;Maintenance engineering;Convolutional codes;Semantics;Atrous convolution;crack detection;defect inspection;image segmentation;neural network architecture},
   doi={10.1109/TIM.2021.3075022}}
+```
 
