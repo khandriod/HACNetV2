@@ -19,8 +19,6 @@ With only **1.17M parameters**, achieves real-time inference performance in **Je
 
 
 
-The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
-
 # The Datasets: 
 ## BCL dataset:
 Harvard dataverse and can bevisited through the following link: https://doi.org/10.7910/DVN/RURXSH
@@ -31,6 +29,7 @@ Github: https://github.com/hanshenChen/CHCrack5K
 If you find this repository useful, please consider giving a star ⭐ and citation 🦖:
 # Citation
 ```bibtex
+HACNetV2:
 @article{CHEN2025128144,
 title = {HACNet V2: Rethinking the full-resolution architecture for pixel-level crack detection},
 journal = {Expert Systems with Applications},
@@ -42,4 +41,16 @@ url = {https://www.sciencedirect.com/science/article/pii/S0957417425017646},
 author = {Hanshen Chen and Hao Chen}
 }
 
+The source code for HACNet is available at [https://github.com/hanshenChen/HacNet](https://github.com/hanshenChen/HACNet).  
+HACNet;
+@ARTICLE{9410578,
+  author={Chen, Hanshen and Lin, Huiping},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={An Effective Hybrid Atrous Convolutional Network for Pixel-Level Crack Detection}, 
+  year={2021},
+  volume={70},
+  number={},
+  pages={1-12},
+  keywords={Feature extraction;Task analysis;Image segmentation;Spatial resolution;Maintenance engineering;Convolutional codes;Semantics;Atrous convolution;crack detection;defect inspection;image segmentation;neural network architecture},
+  doi={10.1109/TIM.2021.3075022}}
 
