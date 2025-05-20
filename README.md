@@ -15,7 +15,7 @@ A straightforward architecture composed of six identical HybridASPA blocks, each
 Superior detection accuracy, particularly in identifying tiny and fine-grained cracks.
 
 ### ⚡ Efficiency
-With only **1.17M parameters**, achieves real-time inference performance in **Jetson Orin AGX**.
+With only **0.52M parameters**, achieves real-time inference performance in **Jetson Orin AGX**.
 
 
 # The pixel-level Crack Datasets: 
