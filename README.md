@@ -1,3 +1,80 @@
+# HACNetV2: Hybrid Attention-based Crack Detection Network
+
+This repository contains the implementation of HACNetV2, a deep learning architecture for crack detection in images. The network uses a hybrid attention mechanism and parallel processing paths to achieve efficient and accurate crack detection.
+
+## Project Structure
+
+```
+HACNetV2/
+├── models/
+│   ├── __init__.py
+│   ├── hacnetv2.py
+│   └── modules.py
+├── utils/
+│   ├── __init__.py
+│   └── data_utils.py
+├── config/
+│   └── config.py
+├── train.py
+├── test.py
+├── requirements.txt
+└── README.md
+```
+
+## Features
+
+- Hybrid attention mechanism for crack detection
+- Parallel processing paths for multi-scale feature extraction
+- Efficient stem blocks for initial feature extraction
+- Multi-branch output for different scales of crack detection
+
+## Requirements
+
+- Python 3.7+
+- PyTorch 1.7+
+- torchvision
+- numpy
+- pillow
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/HACNetV2.git
+cd HACNetV2
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Training
+
+```bash
+python train.py --config config/config.py
+```
+
+### Testing
+
+```bash
+python test.py --config config/config.py --checkpoint path/to/checkpoint.pth
+```
+
+## Model Architecture
+
+The HACNetV2 architecture consists of:
+- Effective stem blocks for initial feature extraction
+- Hybrid ASPA (Attention-based Spatial Pyramid Attention) modules
+- Multi-scale feature fusion
+- Multi-branch output for different scales of crack detection
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 # HACNetV2
 HACNet V2: Rethinking the Full-Resolution  Network for Pixel-level Crack Detection
 [paper](https://doi.org/10.1016/j.eswa.2025.128144)
